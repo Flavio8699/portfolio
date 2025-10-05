@@ -7,5 +7,5 @@ export default defineConfig({
     server: {
         host: true,
     },
-    base: "https://matiasflavio.com"
+    base: "https://matiasflavio.com/"
 })
