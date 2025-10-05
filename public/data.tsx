@@ -70,7 +70,7 @@ export const data = {
                     Contributed to the open-source <Link href="https://gitlab.com/uniluxembourg/lcsb/eci/ULPatentTrends">ULPatentTrends</Link> project.
                 </>,
                 <>
-                    Co-authored a peer-reviewed article: "<Link href="https://doi.org/10.1021/acs.estlett.4c00560">Revealing Chemical Trends: Insights from Data-Driven Visualisation and Patent Analysis in Exposomics Research</Link>"
+                    Co-authored a peer-reviewed article: "<Link href="https://doi.org/10.1021/acs.estlett.4c00560">Revealing Chemical Trends: Insights from Data-Driven Visualization and Patent Analysis in Exposomics Research</Link>"
                 </>
             ],
             logo: "/logo/unilu.svg",
@@ -83,7 +83,7 @@ export const data = {
             end: "Jul 2022",
             description: [
                 <>
-                    Developed iOS apps as part of seperate research projects.
+                    Developed iOS apps as part of separate research projects.
                 </>,
                 <>
                     <Link href="#aerial-systems" stay={true}>Aerial Systems</Link>: drone mapping app.
@@ -102,10 +102,10 @@ export const data = {
             end: "Dec 2020",
             description: [
                 <>
-                    Developed a <Link href="#stock-management-system" stay={true}>Stock Management System</Link> for construction sites and primary deposit, digitalizing item transfers and replacing paper vouchers.
+                    Developed a <Link href="#stock-management-system" stay={true}>Stock Management System</Link> for construction sites and primary deposit, digitalising item transfers and replacing paper vouchers.
                 </>,
                 <>
-                    Created an electronic <Link href="#it-ticketing-system" stay={true}>IT Ticketing System</Link> to centralize employee requests.
+                    Created an electronic <Link href="#it-ticketing-system" stay={true}>IT Ticketing System</Link> to centralise employee requests.
                 </>,
                 <>
                     Applications used daily by <strong>~70-150 employees</strong>.
@@ -123,7 +123,7 @@ export const data = {
             inProgress: true,
             description: [
                 <>
-                    Web application allowing users to visualize their travels on an interactive world map.
+                    Web application allowing users to visualise their travels on an interactive world map.
                 </>,
                 <>
                     Users can create trips, add locations along their route, and attach images to capture moments from their journey.
@@ -236,7 +236,7 @@ export const data = {
             year: "2022",
             company: "University of Luxembourg",
             description: [
-                <>iOS application for designing and visualizing virtual gardens using Augmented Reality (AR).</>,
+                <>iOS application for designing and visualising virtual gardens using Augmented Reality (AR).</>,
                 <>Place, move, and scale virtual plants and objects in real-world environments.</>,
                 <>Supports multi-user AR sessions for collaborative garden planning.</>
             ],
@@ -316,7 +316,7 @@ export const data = {
         {
             category: "Data & Machine Learning",
             list: [
-                "Big Data Analysis", "Data Visualization", "Machine Learning (Supervised & Unsupervised)", "Pandas", "NumPy", "Jupyter Notebook", "HPC", "SLURM",
+                "Big Data Analysis", "Data Visualisation", "Machine Learning (Supervised & Unsupervised)", "Pandas", "NumPy", "Jupyter Notebook", "HPC", "SLURM",
             ]
         },
         {
@@ -341,7 +341,7 @@ export const data = {
         { name: "Spanish", level: "A2", progress: 22 },
     ],
     interests: [
-        { name: "Traveling", icon: <Plane className="w-6 h-6" /> },
+        { name: "Travelling", icon: <Plane className="w-6 h-6" /> },
         { name: "Running", icon: <Footprints className="w-6 h-6" /> },
         { name: "Programming", icon: <Code className="w-6 h-6" /> },
         { name: "Photography", icon: <Camera className="w-6 h-6" /> },
