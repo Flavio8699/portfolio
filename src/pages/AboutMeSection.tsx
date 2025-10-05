@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Section from "../components/section/Section";
 import Card from "../components/ui/Card";
 import Button from "../components/ui/Button";
+import memoji from "../assets/memoji-laptop.png";
 import { data } from "../../public/data"
 
 export default function AboutMeSection() {
@@ -90,7 +91,7 @@ export default function AboutMeSection() {
 
             <div className="absolute md:relative top-25 right-6 w-[120px] sm:w-[150px] md:w-1/3 md:left-1/12 md:top-25">
                 <img
-                    src="/memoji-laptop.png"
+                    src={memoji}
                     alt="memoji"
                     className="w-full max-w-full h-auto drop-shadow-[0_20px_30px_rgba(0,0,0,0.6)]"
                 />

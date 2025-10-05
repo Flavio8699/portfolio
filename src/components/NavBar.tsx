@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Button from "./ui/Button";
 import Scrollspy from "react-scrollspy-navigation";
+import memoji from "../assets/memoji-laptop.png";
 import { data } from "../../public/data"
 
 export default function Navbar() {
@@ -39,7 +40,7 @@ export default function Navbar() {
                     {/* Avatar + Name */}
                     <div className="flex items-center gap-2">
                         <img
-                            src="/memoji-laptop.png"
+                            src={memoji}
                             className={`rounded-full bg-teal-400 transform transition-all duration-500 ${menuOpen || activeSection !== "about-me"
                                 ? "h-10 scale-100 opacity-100"
                                 : "h-0 scale-50 opacity-0"
